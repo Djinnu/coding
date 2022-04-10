@@ -1,0 +1,36 @@
+* {
+    padding: 1%;
+    margin: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: rgb(219, 209, 209);
+}
+
+.anime-container, .picture-container {
+    border-bottom: 1px solid goldenrod;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.text {
+    text-align: center;
+}
+button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+button:hover {
+    background: gainsboro;
+}

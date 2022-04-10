@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+nav, ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+ul {
+    flex-basis: 60%;
+    padding: 0 5% 0 0;
+    margin-right: 5%;
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+header {
+    height: 75px;
+    padding-top: 0.5%;
+    background: rgb(31, 31, 65);
+}
+
+header > nav > i {
+    margin-top: 10px;
+    color: white;
+}
+
+.sign-up {
+    border-radius: 5px;
+    padding: 15px 35px 15px 35px;
+    text-decoration: none;
+    background-color: darkgrey;
+    color: white;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    background: rgb(31, 31, 65);
+    color: white;
+}
+
+main > section {
+    flex-basis: 50%;
+}
+
+main > section > h2 {
+    font-size: 4rem;
+    width: 60%;
+    color: white;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+p {
+    font-size: 2rem;
+    width: 85%;
+    line-height: 200%;
+}
+
+.btn-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 10%;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+button {
+    padding: 2.3% 7% 2.3% 7%;
+}
+
+.btn-container > a {
+    margin-right: 5%;
+}
+
+section > nav {
+    display: flex;
+    justify-content: end;
+}
+
+
+.big-container {
+    display: flex;
+}
+
+.big-container > section {
+    flex-basis: 50%;
+    padding: 5% 4% 5% 5%;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3.7rem;
+    width: 75%;
+    margin: 10px 0 10px 0;
+}
+
+.big-container > section > p {
+    font-size: 1.8rem;
+    width: 85%;
+    line-height: 200%;
+}
+
+.big-container > section > button {
+    margin-top: 7%;
+}
+
+.four-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.four-images > .img-container {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+}
+
+.four-images > .img-container > div {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+}
+
+.img-container > p {
+    margin-top: 0;
+    line-height: normal;
+    display: block;
+    font-size: 1.8rem;   
+}
+
+.four-images span {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container > section {
+    flex-basis: 50%;
+    padding: 5% 4% 5% 5%;
+}
+
+.container  div {
+    border: 1px solid black;
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 150px;
+    object-fit: none;
+}
+
+.container button {
+    margin-top: 50px;
+}
+
+body > h2 {
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+body > p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container > section > section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > section > section > h3 {
+    margin: 0;
+    align-self: center;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid black;
+    margin-right: 15px;
+}
+
+.container i {
+    margin-right: 5%;
+}
+
+#middle-btn {
+    margin: 2% auto;
+    padding: 1% 2%;
+}
+
+.mini-section {
+    width: 35%;
+    padding: 2% 5%;
+}
+
+.flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 3%;
+    align-content: space-between;
+    background: rgb(31, 31, 65);
+}
+
+.flex-section > section {
+    border: 1px solid black;
+    border-radius: 5%;
+    flex-basis: 22%;
+    padding: 2%;
+    margin-bottom: 2.5%;
+    background: white;
+}
+
+.flex-section > section > p {
+    width: 100%;
+    line-height: 1.6;
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.flex-section > section > h3 {
+    font-size: 1.8rem;
+}
+
+.view-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.promo {
+    font-size: 3rem;
+    line-height: 1.6;
+    margin-top: 0px;
+    flex-basis: 55%;
+    text-align: center;
+}
+
+.promo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+body > span {
+    text-align: center;
+    margin: 5px auto;
+    display: table;
+    font-size: 2rem;
+    color: gray
+}
+
+.lower-banner {
+    display: flex;
+    padding: 3%;
+    align-items: center;
+    background: rgb(31, 31, 65);
+    margin-top: 75px;
+}
+
+.lower-banner > section {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.lower-banner h4 {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.lower-banner h3 {
+    font-size: 2.8rem;
+    color: white;
+}
+
+.lower-banner button {
+    margin-left: 50px;
+}
+
+footer > section {
+    display: flex;
+    width: 100%;
+    padding: 2.5% 5%;
+}
+
+footer > section > ul {
+    display: flex;
+    flex-basis: 16%;
+    flex-direction: column;
+    padding: 0;
+    height: 250px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+footer > section input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}

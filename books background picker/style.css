@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("witcher2.jpg");
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.flex-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+section {
+    justify-content: flex-end;
+    display: flex;
+    border: 1px solid black;
+    height: 40vh; 
+    width: 30vw;  
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-basis: 33.3333%;
+    border: 2px solid black;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#game {
+    background-image: url("got2.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#king {
+    background-image: url("king1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#raven {
+    background-image: url("raven1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#glass {
+    background-image: url("glass1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#demon {
+    background-image: url("demon1.webp");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#mist {
+    background-image: url("mist1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#stormlight {
+    background-image: url("storm1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#witcher {
+    background-image: url("witcher1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#night {
+    background-image: url("night1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#farseer {
+    background-image: url("farseer1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#powder {
+    background-image: url("powder1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#first {
+    background-image: url("first1.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+button {
+    padding: 1% 2.5%;
+    margin: 5%;
+}
