@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #4c5c96;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    margin: 2% 0;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 45vh;
+    justify-content: space-between;
+    align-content: space-around;
+    background: #363c4c;
+}
+
+.banned {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+section {
+    width: 40%;
+    margin: 1.5% 43%;
+    text-align: center;
+}
+
+.draft {
+    margin: 1% auto;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+p {
+    margin: 1% 5%;
+}
