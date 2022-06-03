@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', getInfo)
+document.querySelector('button').addEventListener('click', getInfo) 
 document.querySelectorAll('li').forEach(elem=> elem.addEventListener('click', showInfo))
 
 const amongUs = {
@@ -198,7 +198,12 @@ function getInfo() {
   } else {
     document.querySelector('h2').innerHTML = amongUs[role].team
     document.querySelector('.description').innerHTML = amongUs[role].description
-    document.querySelector('.note').innerHTML = `Note: ${amongUs[role].note}`
+
+    if(amongUs[role].note === undefined) {
+      document.querySelector('.note').innerHTML = ''
+    } else {
+      document.querySelector('.note').innerHTML = `Note: ${amongUs[role].note}`
+    }
   }
 }
 
@@ -206,6 +211,10 @@ function showInfo(e) {
   let clickedRole = e.target.innerHTML.toLowerCase().replace(/ /g, "")
   document.querySelector('h2').innerHTML = amongUs[clickedRole].team
   document.querySelector('.description').innerHTML = amongUs[clickedRole].description
-  document.querySelector('.note').innerHTML = `Note: ${amongUs[clickedRole].note}`
-}
 
+  if(amongUs[clickedRole].note === undefined) {
+    document.querySelector('.note').innerHTML = ''
+  } else {
+    document.querySelector('.note').innerHTML = `Note: ${amongUs[clickedRole].note}`
+  }
+}
